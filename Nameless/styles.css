@@ -1,0 +1,98 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body
+{
+	
+	font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+ul
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  overflow: hidden;
+
+}
+.active
+{
+	background-color: orange;
+	color: white;
+	border-radius: 10px;
+	border: 1px none;
+	text-align: center;
+	margin: 4px 4px 4px 4px;
+
+}
+
+.navbar li
+{
+	float: left;
+}
+.navbar li a
+{
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+
+
+}
+.navbar li a:hover
+{
+	background-color: white;
+	color: orange;
+	border-bottom: 1px solid orange;
+
+}
+#home h1,p
+{
+  text-align: center;	
+  padding: 10px;
+}
+/*#home div{
+	border: 1px solid black;
+
+}*/
+.button
+{
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	display: inline-block;
+	font-size: 16px;
+	cursor: pointer;
+	margin: 10px 4px 4px 4px;
+	background-color: orange;
+	border-radius: 10px
+
+}
+.button:hover
+{
+	background-color: white;
+	color: orange;
+	border-bottom: 1px solid orange;
+}
+
+.button1
+{
+	margin-left: 525px;
+}
+.rectangle
+{
+	position: absolute;
+width: 1350px;
+height: 250px;
+left: 0px;
+top: 400px;
+
+background: #FFB800;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 15px;
+z-index: -1;
+}
